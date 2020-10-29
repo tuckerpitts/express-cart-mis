@@ -20,7 +20,7 @@
     "paymentGateway": [
         "stripe"
     ],
-    "databaseConnectionString": "mongodb+srv://majdthaher:<bateenimed2014>@cluster0.0gl8q.mongodb.net/<Cluster0>?retryWrites=true&w=majority",
+    "databaseConnectionString": "mongodb+srv://majdthaher:bateenimed2014@cluster0.0gl8q.mongodb.net/test?authSource=admin&replicaSet=atlas-feh9il-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
