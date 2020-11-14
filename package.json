@@ -4,12 +4,12 @@
   "description": "A fully functioning Node.js shopping cart with Stripe, PayPal and Authorize.net payments.",
   "private": false,
   "scripts": {
-    "dev": "react-scripts start",
-  "start": "serve -s build",
-  "build": "react-scripts build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject",
-  "heroku-postbuild": "npm run build"
+    "start": "node app.js",
+    "deploy": "node deploy.js",
+    "testdata": "node lib/testdata.js",
+    "test": "ava",
+    "dev": " pm2-dev start app.js",
+    "lint": "eslint ./"
   },
   "ava": {
     "serial": true,
