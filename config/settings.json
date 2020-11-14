@@ -1,5 +1,5 @@
 {
-    "cartTitle": "CLOTH",
+    "cartTitle": "Bateeni",
     "cartDescription": "expressCart",
     "cartLogo": "",
     "baseUrl": "http://localhost:1111",
@@ -20,7 +20,7 @@
     "paymentGateway": [
         "stripe"
     ],
-    "databaseConnectionString": "mongodb+srv://majdthaher:bateenimed2014@cluster0.0gl8q.mongodb.net/test?authSource=admin&replicaSet=atlas-feh9il-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    "databaseConnectionString": "mongodb+srv://majdthaher:<bateenimed2014>@cluster0.0gl8q.mongodb.net/<Cluster0>?retryWrites=true&w=majority",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
