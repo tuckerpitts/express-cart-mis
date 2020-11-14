@@ -1,8 +1,8 @@
 {
-    "cartTitle": "BATEENI",
+    "cartTitle": "Bateeni",
     "cartDescription": "expressCart",
     "cartLogo": "",
-    "baseUrl": "http://localhost:1111",
+    "baseUrl": "https://bateenimediterranean.com/",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
